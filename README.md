@@ -6,7 +6,7 @@ Run it with: $ ruby process_database.rb gene_information.tsv seed_stock_data.tsv
 
 The 4th parameter new_seed_stock_filename.tsv is an example name and the file name of the generated data file will be the one specified.
 
-References:
+## References:
 How to use the initialize method in ruby. RubyGuides. (2019, July 23). Retrieved November 3, 2022, from https://www.rubyguides.com/2019/01/ruby-initialize-method/
 
 Contents. Reading from a CSV File | Ruby for Beginners. (n.d.). Retrieved November 3, 2022, from http://ruby-for-beginners.rubymonstas.org/exercises/mailbox_csv.html
