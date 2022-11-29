@@ -1,0 +1,282 @@
+FINAL REPORT
+
+NETWORK 0
+------------------ 
+NETWORK MEMBERS:
+["AT4G09650", "AT4G32570", "AT1G37130"]
+
+NETWORK INTERACTIONS:
+["AT4G09650 interacts with AT1G37130 with intermediate AT4G32570", "AT4G09650 interacts with AT4G09650 with intermediate AT4G32570", "AT4G09650 interacts with AT1G37130 with intermediate AT4G32570", "AT4G09650 interacts with AT1G37130 with intermediate AT4G32570", "AT4G09650 interacts with AT1G37130 with intermediate AT4G32570", "AT4G09650 interacts with AT4G09650 with intermediate AT4G32570", "AT4G09650 interacts with AT4G09650 with intermediate AT4G32570"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT4G09650 -> GoAnnotation: {\"GO:0015979\"=>\"P:photosynthesis\", \"GO:0009773\"=>\"P:photosynthetic electron transport in photosystem I\", \"GO:0009772\"=>\"P:photosynthetic electron transport in photosystem II\", \"GO:0015986\"=>\"P:proton motive force-driven ATP synthesis\", \"GO:0009409\"=>\"P:response to cold\", \"GO:0035556\"=>\"P:intracellular signal transduction\"}", "ID: AT4G32570 -> GoAnnotation: {\"GO:0031347\"=>\"P:regulation of defense response\", \"GO:2000022\"=>\"P:regulation of jasmonic acid mediated signaling pathway\", \"GO:0009611\"=>\"P:response to wounding\"}", "ID: AT1G37130 -> GoAnnotation: {\"GO:0042128\"=>\"P:nitrate assimilation\", \"GO:0006809\"=>\"P:nitric oxide biosynthetic process\", \"GO:0009635\"=>\"P:response to herbicide\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0009610\"=>\"P:response to symbiotic fungus\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT4G09650 -> KeggAnnotation: {\"ath00190\"=>\"Oxidative phosphorylation\", \"ath00195\"=>\"Photosynthesis\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT4G32570 -> KeggAnnotation: No anotation found", "ID: AT1G37130 -> KeggAnnotation: {\"ath00910\"=>\"Nitrogen metabolism\", \"ath01100\"=>\"Metabolic pathways\"}"]
+
+NETWORK 1
+------------------ 
+NETWORK MEMBERS:
+["AT5G04140", "AT4G37930"]
+
+NETWORK INTERACTIONS:
+["AT5G04140 interacts with AT5G04140 with intermediate AT4G37930", "AT5G04140 interacts with AT5G04140 with intermediate AT4G37930"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT5G04140 -> GoAnnotation: {\"GO:0019676\"=>\"P:ammonia assimilation cycle\", \"GO:0006537\"=>\"P:glutamate biosynthetic process\", \"GO:0097054\"=>\"P:L-glutamate biosynthetic process\", \"GO:0009853\"=>\"P:photorespiration\", \"GO:0080114\"=>\"P:positive regulation of glycine hydroxymethyltransferase activity\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0009744\"=>\"P:response to sucrose\", \"GO:0006541\"=>\"P:glutamine metabolic process\"}", "ID: AT4G37930 -> GoAnnotation: {\"GO:0007623\"=>\"P:circadian rhythm\", \"GO:0046655\"=>\"P:folic acid metabolic process\", \"GO:0019264\"=>\"P:glycine biosynthetic process from serine\", \"GO:0006544\"=>\"P:glycine metabolic process\", \"GO:0006565\"=>\"P:L-serine catabolic process\", \"GO:0006563\"=>\"P:L-serine metabolic process\", \"GO:0006730\"=>\"P:one-carbon metabolic process\", \"GO:0009853\"=>\"P:photorespiration\", \"GO:0009626\"=>\"P:plant-type hypersensitive response\", \"GO:0009409\"=>\"P:response to cold\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0035999\"=>\"P:tetrahydrofolate interconversion\", \"GO:0046653\"=>\"P:tetrahydrofolate metabolic process\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT5G04140 -> KeggAnnotation: {\"ath00630\"=>\"Glyoxylate and dicarboxylate metabolism\", \"ath00910\"=>\"Nitrogen metabolism\"}", "ID: AT4G37930 -> KeggAnnotation: {\"ath00260\"=>\"Glycine, serine and threonine metabolism\", \"ath00460\"=>\"Cyanoamino acid metabolism\", \"ath00630\"=>\"Glyoxylate and dicarboxylate metabolism\", \"ath00670\"=>\"One carbon pool by folate\", \"ath01100\"=>\"Metabolic pathways\", \"ath01110\"=>\"Biosynthesis of secondary metabolites\", \"ath01200\"=>\"Carbon metabolism\", \"ath01230\"=>\"Biosynthesis of amino acids\", \"ath01240\"=>\"Biosynthesis of cofactors\"}"]
+
+NETWORK 2
+------------------ 
+NETWORK MEMBERS:
+["AT1G03130", "AT4G37260", "AT4G09650", "AT4G02770"]
+
+NETWORK INTERACTIONS:
+["AT1G03130 interacts with AT4G09650 with intermediate AT4G37260", "AT1G03130 interacts with AT1G03130 with intermediate AT4G37260", "AT1G03130 interacts with AT4G02770 with intermediate AT4G37260", "AT1G03130 interacts with AT4G09650 with intermediate AT4G37260", "AT1G03130 interacts with AT4G02770 with intermediate AT4G37260", "AT1G03130 interacts with AT1G03130 with intermediate AT4G37260", "AT1G03130 interacts with AT4G02770 with intermediate AT4G37260", "AT1G03130 interacts with AT4G09650 with intermediate AT4G37260", "AT1G03130 interacts with AT1G03130 with intermediate AT4G37260"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT1G03130 -> GoAnnotation: {\"GO:0015979\"=>\"P:photosynthesis\"}", "ID: AT4G37260 -> GoAnnotation: {\"GO:0019760\"=>\"P:glucosinolate metabolic process\", \"GO:1901001\"=>\"P:negative regulation of response to salt stress\", \"GO:0010929\"=>\"P:positive regulation of auxin mediated signaling pathway\", \"GO:0006355\"=>\"P:regulation of DNA-templated transcription\", \"GO:0006122\"=>\"P:mitochondrial electron transport, ubiquinol to cytochrome c\"}", "ID: AT4G09650 -> GoAnnotation: {\"GO:0015979\"=>\"P:photosynthesis\", \"GO:0009773\"=>\"P:photosynthetic electron transport in photosystem I\", \"GO:0009772\"=>\"P:photosynthetic electron transport in photosystem II\", \"GO:0015986\"=>\"P:proton motive force-driven ATP synthesis\", \"GO:0009409\"=>\"P:response to cold\", \"GO:0035556\"=>\"P:intracellular signal transduction\"}", "ID: AT4G02770 -> GoAnnotation: {\"GO:0140547\"=>\"P:acquisition of seed longevity\", \"GO:0015979\"=>\"P:photosynthesis\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT1G03130 -> KeggAnnotation: {\"ath00195\"=>\"Photosynthesis\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT4G37260 -> KeggAnnotation: No anotation found", "ID: AT4G09650 -> KeggAnnotation: {\"ath00190\"=>\"Oxidative phosphorylation\", \"ath00195\"=>\"Photosynthesis\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT4G02770 -> KeggAnnotation: {\"ath00195\"=>\"Photosynthesis\", \"ath01100\"=>\"Metabolic pathways\"}"]
+
+NETWORK 3
+------------------ 
+NETWORK MEMBERS:
+["AT4G17460", "AT3G15030"]
+
+NETWORK INTERACTIONS:
+["AT4G17460 interacts with AT4G17460 with intermediate AT3G15030", "AT4G17460 interacts with AT4G17460 with intermediate AT3G15030", "AT4G17460 interacts with AT4G17460 with intermediate AT3G15030"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT4G17460 -> GoAnnotation: {\"GO:0003006\"=>\"P:developmental process involved in reproduction\", \"GO:0010582\"=>\"P:floral meristem determinacy\", \"GO:0080127\"=>\"P:fruit septum development\", \"GO:0048467\"=>\"P:gynoecium development\"}", "ID: AT3G15030 -> GoAnnotation: {\"GO:0048825\"=>\"P:cotyledon development\", \"GO:0048826\"=>\"P:cotyledon morphogenesis\", \"GO:0009793\"=>\"P:embryo development ending in seed dormancy\", \"GO:0048366\"=>\"P:leaf development\", \"GO:0010150\"=>\"P:leaf senescence\", \"GO:0006355\"=>\"P:regulation of DNA-templated transcription\", \"GO:0009854\"=>\"P:oxidative photosynthetic carbon pathway\", \"GO:0051707\"=>\"P:response to other organism\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT4G17460 -> KeggAnnotation: No anotation found", "ID: AT3G15030 -> KeggAnnotation: No anotation found"]
+
+NETWORK 4
+------------------ 
+NETWORK MEMBERS:
+["AT5G05690", "AT3G54130"]
+
+NETWORK INTERACTIONS:
+["AT5G05690 interacts with AT5G05690 with intermediate AT3G54130", "AT5G05690 interacts with AT5G05690 with intermediate AT3G54130", "AT5G05690 interacts with AT5G05690 with intermediate AT3G54130"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT5G05690 -> GoAnnotation: {\"GO:0048657\"=>\"P:anther wall tapetum cell differentiation\", \"GO:0016132\"=>\"P:brassinosteroid biosynthetic process\", \"GO:0010268\"=>\"P:brassinosteroid homeostasis\", \"GO:0010584\"=>\"P:pollen exine formation\", \"GO:0009911\"=>\"P:positive regulation of flower development\", \"GO:0010224\"=>\"P:response to UV-B\", \"GO:0016125\"=>\"P:sterol metabolic process\"}", "ID: AT3G54130 -> GoAnnotation: {\"GO:0016579\"=>\"P:protein deubiquitination\", \"GO:0016132\"=>\"P:brassinosteroid biosynthetic process\", \"GO:0009808\"=>\"P:lignin metabolic process\", \"GO:0009834\"=>\"P:plant-type secondary cell wall biogenesis\", \"GO:0008202\"=>\"P:steroid metabolic process\", \"GO:0009826\"=>\"P:unidimensional cell growth\", \"GO:0048657\"=>\"P:anther wall tapetum cell differentiation\", \"GO:0010268\"=>\"P:brassinosteroid homeostasis\", \"GO:0010584\"=>\"P:pollen exine formation\", \"GO:0009911\"=>\"P:positive regulation of flower development\", \"GO:0010224\"=>\"P:response to UV-B\", \"GO:0016125\"=>\"P:sterol metabolic process\", \"GO:0006468\"=>\"P:protein phosphorylation\", \"GO:0050896\"=>\"P:response to stimulus\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT5G05690 -> KeggAnnotation: {\"ath00905\"=>\"Brassinosteroid biosynthesis\", \"ath01100\"=>\"Metabolic pathways\", \"ath01110\"=>\"Biosynthesis of secondary metabolites\"}", "ID: AT3G54130 -> KeggAnnotation: No anotation found"]
+
+NETWORK 5
+------------------ 
+NETWORK MEMBERS:
+["AT1G37130", "AT5G60120"]
+
+NETWORK INTERACTIONS:
+["AT1G37130 interacts with AT1G37130 with intermediate AT5G60120", "AT1G37130 interacts with AT1G37130 with intermediate AT5G60120", "AT1G37130 interacts with AT1G37130 with intermediate AT5G60120"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT1G37130 -> GoAnnotation: {\"GO:0042128\"=>\"P:nitrate assimilation\", \"GO:0006809\"=>\"P:nitric oxide biosynthetic process\", \"GO:0009635\"=>\"P:response to herbicide\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0009610\"=>\"P:response to symbiotic fungus\"}", "ID: AT5G60120 -> GoAnnotation: {\"GO:0009873\"=>\"P:ethylene-activated signaling pathway\", \"GO:0010629\"=>\"P:negative regulation of gene expression\", \"GO:0045824\"=>\"P:negative regulation of innate immune response\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT1G37130 -> KeggAnnotation: {\"ath00910\"=>\"Nitrogen metabolism\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT5G60120 -> KeggAnnotation: No anotation found"]
+
+NETWORK 6
+------------------ 
+NETWORK MEMBERS:
+["AT4G19170", "AT5G17790"]
+
+NETWORK INTERACTIONS:
+["AT4G19170 interacts with AT4G19170 with intermediate AT5G17790", "AT4G19170 interacts with AT4G19170 with intermediate AT5G17790"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT4G19170 -> GoAnnotation: {\"GO:1901811\"=>\"P:beta-carotene catabolic process\", \"GO:0016121\"=>\"P:carotene catabolic process\"}", "ID: AT5G17790 -> GoAnnotation: {\"GO:1900871\"=>\"P:chloroplast mRNA modification\", \"GO:0009658\"=>\"P:chloroplast organization\", \"GO:0006397\"=>\"P:mRNA processing\", \"GO:0009733\"=>\"P:response to auxin\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT4G19170 -> KeggAnnotation: {\"ath00906\"=>\"Carotenoid biosynthesis\", \"ath01100\"=>\"Metabolic pathways\", \"ath01110\"=>\"Biosynthesis of secondary metabolites\"}", "ID: AT5G17790 -> KeggAnnotation: {\"ath04075\"=>\"Plant hormone signal transduction\"}"]
+
+NETWORK 7
+------------------ 
+NETWORK MEMBERS:
+["AT5G15850", "AT4G10240"]
+
+NETWORK INTERACTIONS:
+["AT5G15850 interacts with AT5G15850 with intermediate AT4G10240", "AT5G15850 interacts with AT5G15850 with intermediate AT4G10240", "AT5G15850 interacts with AT5G15850 with intermediate AT4G10240"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT5G15850 -> GoAnnotation: {\"GO:0009909\"=>\"P:regulation of flower development\", \"GO:0000398\"=>\"P:mRNA splicing, via spliceosome\"}", "ID: AT4G10240 -> GoAnnotation: {\"GO:0009640\"=>\"P:photomorphogenesis\", \"GO:0006355\"=>\"P:regulation of DNA-templated transcription\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT5G15850 -> KeggAnnotation: No anotation found", "ID: AT4G10240 -> KeggAnnotation: No anotation found"]
+
+NETWORK 8
+------------------ 
+NETWORK MEMBERS:
+["AT5G17300", "AT5G24520"]
+
+NETWORK INTERACTIONS:
+["AT5G17300 interacts with AT5G17300 with intermediate AT5G24520", "AT5G17300 interacts with AT5G17300 with intermediate AT5G24520", "AT5G17300 interacts with AT5G17300 with intermediate AT5G24520", "AT5G17300 interacts with AT5G17300 with intermediate AT5G24520"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT5G17300 -> GoAnnotation: {\"GO:0009734\"=>\"P:auxin-activated signaling pathway\", \"GO:0007623\"=>\"P:circadian rhythm\", \"GO:0010600\"=>\"P:regulation of auxin biosynthetic process\", \"GO:0006355\"=>\"P:regulation of DNA-templated transcription\", \"GO:0016567\"=>\"P:protein ubiquitination\"}", "ID: AT5G24520 -> GoAnnotation: {\"GO:0045165\"=>\"P:cell fate commitment\", \"GO:0009957\"=>\"P:epidermal cell fate specification\", \"GO:0032880\"=>\"P:regulation of protein localization\", \"GO:0009733\"=>\"P:response to auxin\", \"GO:0009723\"=>\"P:response to ethylene\", \"GO:0010026\"=>\"P:trichome differentiation\", \"GO:0098869\"=>\"P:cellular oxidant detoxification\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT5G17300 -> KeggAnnotation: No anotation found", "ID: AT5G24520 -> KeggAnnotation: No anotation found"]
+
+NETWORK 9
+------------------ 
+NETWORK MEMBERS:
+["AT1G54040", "AT4G23810"]
+
+NETWORK INTERACTIONS:
+["AT1G54040 interacts with AT1G54040 with intermediate AT4G23810", "AT1G54040 interacts with AT1G54040 with intermediate AT4G23810", "AT1G54040 interacts with AT1G54040 with intermediate AT4G23810", "AT1G54040 interacts with AT1G54040 with intermediate AT4G23810", "AT1G54040 interacts with AT1G54040 with intermediate AT4G23810", "AT1G54040 interacts with AT1G54040 with intermediate AT4G23810"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT1G54040 -> GoAnnotation: {\"GO:0042742\"=>\"P:defense response to bacterium\", \"GO:0019762\"=>\"P:glucosinolate catabolic process\", \"GO:0010150\"=>\"P:leaf senescence\", \"GO:0080028\"=>\"P:nitrile biosynthetic process\", \"GO:0009753\"=>\"P:response to jasmonic acid\"}", "ID: AT4G23810 -> GoAnnotation: {\"GO:0042742\"=>\"P:defense response to bacterium\", \"GO:0010150\"=>\"P:leaf senescence\", \"GO:0045893\"=>\"P:positive regulation of DNA-templated transcription\", \"GO:0031347\"=>\"P:regulation of defense response\", \"GO:2000022\"=>\"P:regulation of jasmonic acid mediated signaling pathway\", \"GO:0009617\"=>\"P:response to bacterium\", \"GO:0042542\"=>\"P:response to hydrogen peroxide\", \"GO:0010193\"=>\"P:response to ozone\", \"GO:0009751\"=>\"P:response to salicylic acid\", \"GO:0006367\"=>\"P:transcription initiation at RNA polymerase II promoter\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT1G54040 -> KeggAnnotation: No anotation found", "ID: AT4G23810 -> KeggAnnotation: No anotation found"]
+
+NETWORK 10
+------------------ 
+NETWORK MEMBERS:
+["AT3G21870", "AT3G48750"]
+
+NETWORK INTERACTIONS:
+["AT3G21870 interacts with AT3G21870 with intermediate AT3G48750", "AT3G21870 interacts with AT3G21870 with intermediate AT3G48750"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT3G21870 -> GoAnnotation: {\"GO:0007049\"=>\"P:cell cycle\", \"GO:0051301\"=>\"P:cell division\", \"GO:0000079\"=>\"P:regulation of cyclin-dependent protein serine/threonine kinase activity\"}", "ID: AT3G48750 -> GoAnnotation: {\"GO:0008356\"=>\"P:asymmetric cell division\", \"GO:0000911\"=>\"P:cytokinesis by cell plate formation\", \"GO:0042023\"=>\"P:DNA endoreduplication\", \"GO:0009793\"=>\"P:embryo development ending in seed dormancy\", \"GO:0000082\"=>\"P:G1/S transition of mitotic cell cycle\", \"GO:0048229\"=>\"P:gametophyte development\", \"GO:0010235\"=>\"P:guard mother cell cytokinesis\", \"GO:0010444\"=>\"P:guard mother cell differentiation\", \"GO:0033206\"=>\"P:meiotic cytokinesis\", \"GO:0009555\"=>\"P:pollen development\", \"GO:0008284\"=>\"P:positive regulation of cell population proliferation\", \"GO:0006468\"=>\"P:protein phosphorylation\", \"GO:1902806\"=>\"P:regulation of cell cycle G1/S phase transition\", \"GO:0010389\"=>\"P:regulation of G2/M transition of mitotic cell cycle\", \"GO:0010468\"=>\"P:regulation of gene expression\", \"GO:0051445\"=>\"P:regulation of meiotic cell cycle\", \"GO:0040020\"=>\"P:regulation of meiotic nuclear division\", \"GO:0009409\"=>\"P:response to cold\", \"GO:0007165\"=>\"P:signal transduction\", \"GO:0098725\"=>\"P:symmetric cell division\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT3G21870 -> KeggAnnotation: No anotation found", "ID: AT3G48750 -> KeggAnnotation: No anotation found"]
+
+NETWORK 11
+------------------ 
+NETWORK MEMBERS:
+["AT3G48360", "AT4G09570"]
+
+NETWORK INTERACTIONS:
+["AT3G48360 interacts with AT3G48360 with intermediate AT4G09570", "AT3G48360 interacts with AT3G48360 with intermediate AT4G09570", "AT3G48360 interacts with AT3G48360 with intermediate AT4G09570", "AT3G48360 interacts with AT3G48360 with intermediate AT4G09570", "AT3G48360 interacts with AT3G48360 with intermediate AT4G09570", "AT3G48360 interacts with AT3G48360 with intermediate AT4G09570", "AT3G48360 interacts with AT3G48360 with intermediate AT4G09570"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT3G48360 -> GoAnnotation: {\"GO:0009738\"=>\"P:abscisic acid-activated signaling pathway\", \"GO:0009734\"=>\"P:auxin-activated signaling pathway\", \"GO:0007623\"=>\"P:circadian rhythm\", \"GO:0009553\"=>\"P:embryo sac development\", \"GO:0009555\"=>\"P:pollen development\", \"GO:0051973\"=>\"P:positive regulation of telomerase activity\", \"GO:0016567\"=>\"P:protein ubiquitination\", \"GO:0006355\"=>\"P:regulation of DNA-templated transcription\", \"GO:0009737\"=>\"P:response to abscisic acid\", \"GO:0009733\"=>\"P:response to auxin\", \"GO:0009743\"=>\"P:response to carbohydrate\", \"GO:0009409\"=>\"P:response to cold\", \"GO:0042542\"=>\"P:response to hydrogen peroxide\", \"GO:0009753\"=>\"P:response to jasmonic acid\", \"GO:0010167\"=>\"P:response to nitrate\", \"GO:0009751\"=>\"P:response to salicylic acid\", \"GO:0009651\"=>\"P:response to salt stress\", \"GO:0009611\"=>\"P:response to wounding\", \"GO:0010182\"=>\"P:sugar mediated signaling pathway\", \"GO:0042221\"=>\"P:response to chemical\", \"GO:0006950\"=>\"P:response to stress\"}", "ID: AT4G09570 -> GoAnnotation: {\"GO:0035556\"=>\"P:intracellular signal transduction\", \"GO:0018105\"=>\"P:peptidyl-serine phosphorylation\", \"GO:0009789\"=>\"P:positive regulation of abscisic acid-activated signaling pathway\", \"GO:0046777\"=>\"P:protein autophosphorylation\", \"GO:0006468\"=>\"P:protein phosphorylation\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT3G48360 -> KeggAnnotation: No anotation found", "ID: AT4G09570 -> KeggAnnotation: {\"aly04626\"=>\"Plant-pathogen interaction\"}"]
+
+NETWORK 12
+------------------ 
+NETWORK MEMBERS:
+["AT1G71030", "AT4G09820"]
+
+NETWORK INTERACTIONS:
+["AT1G71030 interacts with AT1G71030 with intermediate AT4G09820", "AT1G71030 interacts with AT1G71030 with intermediate AT4G09820", "AT1G71030 interacts with AT1G71030 with intermediate AT4G09820"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT1G71030 -> GoAnnotation: {\"GO:0009718\"=>\"P:anthocyanin-containing compound biosynthetic process\", \"GO:0030154\"=>\"P:cell differentiation\", \"GO:0010023\"=>\"P:proanthocyanidin biosynthetic process\"}", "ID: AT4G09820 -> GoAnnotation: {\"GO:0009813\"=>\"P:flavonoid biosynthetic process\", \"GO:0009867\"=>\"P:jasmonic acid mediated signaling pathway\", \"GO:0031542\"=>\"P:positive regulation of anthocyanin biosynthetic process\", \"GO:0009962\"=>\"P:regulation of flavonoid biosynthetic process\", \"GO:2000029\"=>\"P:regulation of proanthocyanidin biosynthetic process\", \"GO:0010214\"=>\"P:seed coat development\", \"GO:0048316\"=>\"P:seed development\", \"GO:0010026\"=>\"P:trichome differentiation\", \"GO:0006869\"=>\"P:lipid transport\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT1G71030 -> KeggAnnotation: No anotation found", "ID: AT4G09820 -> KeggAnnotation: No anotation found"]
+
+NETWORK 13
+------------------ 
+NETWORK MEMBERS:
+["AT3G45780", "AT5G64330"]
+
+NETWORK INTERACTIONS:
+["AT3G45780 interacts with AT3G45780 with intermediate AT5G64330", "AT3G45780 interacts with AT3G45780 with intermediate AT5G64330"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT3G45780 -> GoAnnotation: {\"GO:0009904\"=>\"P:chloroplast accumulation movement\", \"GO:0009903\"=>\"P:chloroplast avoidance movement\", \"GO:0007623\"=>\"P:circadian rhythm\", \"GO:0010362\"=>\"P:negative regulation of anion channel activity by blue light\", \"GO:0009638\"=>\"P:phototropism\", \"GO:0046777\"=>\"P:protein autophosphorylation\", \"GO:0006468\"=>\"P:protein phosphorylation\", \"GO:0010155\"=>\"P:regulation of proton transport\", \"GO:0010119\"=>\"P:regulation of stomatal movement\", \"GO:0009637\"=>\"P:response to blue light\", \"GO:0007165\"=>\"P:signal transduction\", \"GO:0006470\"=>\"P:protein dephosphorylation\"}", "ID: AT5G64330 -> GoAnnotation: {\"GO:0009785\"=>\"P:blue light signaling pathway\", \"GO:0009638\"=>\"P:phototropism\", \"GO:0016567\"=>\"P:protein ubiquitination\", \"GO:0097428\"=>\"P:protein maturation by iron-sulfur cluster transfer\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT3G45780 -> KeggAnnotation: No anotation found", "ID: AT5G64330 -> KeggAnnotation: No anotation found"]
+
+NETWORK 14
+------------------ 
+NETWORK MEMBERS:
+["AT3G62410", "AT3G26650"]
+
+NETWORK INTERACTIONS:
+["AT3G62410 interacts with AT3G62410 with intermediate AT3G26650", "AT3G62410 interacts with AT3G62410 with intermediate AT3G26650", "AT3G62410 interacts with AT3G62410 with intermediate AT3G26650", "AT3G62410 interacts with AT3G62410 with intermediate AT3G26650"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT3G62410 -> GoAnnotation: {\"GO:0071454\"=>\"P:cellular response to anoxia\", \"GO:0070417\"=>\"P:cellular response to cold\", \"GO:0034605\"=>\"P:cellular response to heat\", \"GO:0080153\"=>\"P:negative regulation of reductive pentose-phosphate cycle\", \"GO:0018316\"=>\"P:peptide cross-linking via L-cystine\", \"GO:0065003\"=>\"P:protein-containing complex assembly\", \"GO:0019253\"=>\"P:reductive pentose-phosphate cycle\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0009744\"=>\"P:response to sucrose\"}", "ID: AT3G26650 -> GoAnnotation: {\"GO:0006006\"=>\"P:glucose metabolic process\", \"GO:0051289\"=>\"P:protein homotetramerization\", \"GO:0019253\"=>\"P:reductive pentose-phosphate cycle\", \"GO:0009409\"=>\"P:response to cold\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0009744\"=>\"P:response to sucrose\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT3G62410 -> KeggAnnotation: No anotation found", "ID: AT3G26650 -> KeggAnnotation: {\"aly00710\"=>\"Carbon fixation in photosynthetic organisms\", \"aly01100\"=>\"Metabolic pathways\", \"aly01200\"=>\"Carbon metabolism\"}"]
+
+NETWORK 15
+------------------ 
+NETWORK MEMBERS:
+["AT1G76080", "AT1G31880", "AT1G37130", "AT1G14280", "AT4G02770"]
+
+NETWORK INTERACTIONS:
+["AT1G76080 interacts with AT1G37130 with intermediate AT1G31880", "AT1G76080 interacts with AT1G14280 with intermediate AT1G31880", "AT1G76080 interacts with AT1G37130 with intermediate AT1G31880", "AT1G76080 interacts with AT1G14280 with intermediate AT1G31880", "AT1G76080 interacts with AT1G37130 with intermediate AT1G31880", "AT1G76080 interacts with AT1G14280 with intermediate AT1G31880", "AT1G76080 interacts with AT4G02770 with intermediate AT1G31880", "AT1G76080 interacts with AT1G76080 with intermediate AT1G31880", "AT1G76080 interacts with AT4G02770 with intermediate AT1G31880", "AT1G76080 interacts with AT1G76080 with intermediate AT1G31880", "AT1G76080 interacts with AT4G02770 with intermediate AT1G31880", "AT1G76080 interacts with AT1G76080 with intermediate AT1G31880"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT1G76080 -> GoAnnotation: {\"GO:0045454\"=>\"P:cell redox homeostasis\", \"GO:0042742\"=>\"P:defense response to bacterium\", \"GO:0010286\"=>\"P:heat acclimation\", \"GO:0006979\"=>\"P:response to oxidative stress\", \"GO:0009414\"=>\"P:response to water deprivation\"}", "ID: AT1G31880 -> GoAnnotation: {\"GO:0010315\"=>\"P:auxin export across the plasma membrane\", \"GO:0009734\"=>\"P:auxin-activated signaling pathway\", \"GO:0030154\"=>\"P:cell differentiation\", \"GO:0009736\"=>\"P:cytokinin-activated signaling pathway\", \"GO:0048527\"=>\"P:lateral root development\", \"GO:0010078\"=>\"P:maintenance of root meristem identity\", \"GO:0010088\"=>\"P:phloem development\", \"GO:2000280\"=>\"P:regulation of root development\", \"GO:0009737\"=>\"P:response to abscisic acid\", \"GO:0048364\"=>\"P:root development\", \"GO:0048756\"=>\"P:sieve cell differentiation\"}", "ID: AT1G37130 -> GoAnnotation: {\"GO:0042128\"=>\"P:nitrate assimilation\", \"GO:0006809\"=>\"P:nitric oxide biosynthetic process\", \"GO:0009635\"=>\"P:response to herbicide\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0009610\"=>\"P:response to symbiotic fungus\"}", "ID: AT1G14280 -> GoAnnotation: {\"GO:0048366\"=>\"P:leaf development\", \"GO:0009638\"=>\"P:phototropism\", \"GO:0009585\"=>\"P:red, far-red light phototransduction\"}", "ID: AT4G02770 -> GoAnnotation: {\"GO:0140547\"=>\"P:acquisition of seed longevity\", \"GO:0015979\"=>\"P:photosynthesis\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT1G76080 -> KeggAnnotation: No anotation found", "ID: AT1G31880 -> KeggAnnotation: No anotation found", "ID: AT1G37130 -> KeggAnnotation: {\"ath00910\"=>\"Nitrogen metabolism\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT1G14280 -> KeggAnnotation: No anotation found", "ID: AT4G02770 -> KeggAnnotation: {\"ath00195\"=>\"Photosynthesis\", \"ath01100\"=>\"Metabolic pathways\"}"]
+
+NETWORK 16
+------------------ 
+NETWORK MEMBERS:
+["AT4G02770", "AT1G31880", "AT1G37130", "AT1G14280", "AT1G76080"]
+
+NETWORK INTERACTIONS:
+["AT4G02770 interacts with AT1G37130 with intermediate AT1G31880", "AT4G02770 interacts with AT1G14280 with intermediate AT1G31880", "AT4G02770 interacts with AT1G37130 with intermediate AT1G31880", "AT4G02770 interacts with AT1G14280 with intermediate AT1G31880", "AT4G02770 interacts with AT1G37130 with intermediate AT1G31880", "AT4G02770 interacts with AT1G14280 with intermediate AT1G31880", "AT4G02770 interacts with AT4G02770 with intermediate AT1G31880", "AT4G02770 interacts with AT1G76080 with intermediate AT1G31880", "AT4G02770 interacts with AT4G02770 with intermediate AT1G31880", "AT4G02770 interacts with AT1G76080 with intermediate AT1G31880", "AT4G02770 interacts with AT4G02770 with intermediate AT1G31880", "AT4G02770 interacts with AT1G76080 with intermediate AT1G31880"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT4G02770 -> GoAnnotation: {\"GO:0140547\"=>\"P:acquisition of seed longevity\", \"GO:0015979\"=>\"P:photosynthesis\"}", "ID: AT1G31880 -> GoAnnotation: {\"GO:0010315\"=>\"P:auxin export across the plasma membrane\", \"GO:0009734\"=>\"P:auxin-activated signaling pathway\", \"GO:0030154\"=>\"P:cell differentiation\", \"GO:0009736\"=>\"P:cytokinin-activated signaling pathway\", \"GO:0048527\"=>\"P:lateral root development\", \"GO:0010078\"=>\"P:maintenance of root meristem identity\", \"GO:0010088\"=>\"P:phloem development\", \"GO:2000280\"=>\"P:regulation of root development\", \"GO:0009737\"=>\"P:response to abscisic acid\", \"GO:0048364\"=>\"P:root development\", \"GO:0048756\"=>\"P:sieve cell differentiation\"}", "ID: AT1G37130 -> GoAnnotation: {\"GO:0042128\"=>\"P:nitrate assimilation\", \"GO:0006809\"=>\"P:nitric oxide biosynthetic process\", \"GO:0009635\"=>\"P:response to herbicide\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0009610\"=>\"P:response to symbiotic fungus\"}", "ID: AT1G14280 -> GoAnnotation: {\"GO:0048366\"=>\"P:leaf development\", \"GO:0009638\"=>\"P:phototropism\", \"GO:0009585\"=>\"P:red, far-red light phototransduction\"}", "ID: AT1G76080 -> GoAnnotation: {\"GO:0045454\"=>\"P:cell redox homeostasis\", \"GO:0042742\"=>\"P:defense response to bacterium\", \"GO:0010286\"=>\"P:heat acclimation\", \"GO:0006979\"=>\"P:response to oxidative stress\", \"GO:0009414\"=>\"P:response to water deprivation\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT4G02770 -> KeggAnnotation: {\"ath00195\"=>\"Photosynthesis\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT1G31880 -> KeggAnnotation: No anotation found", "ID: AT1G37130 -> KeggAnnotation: {\"ath00910\"=>\"Nitrogen metabolism\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT1G14280 -> KeggAnnotation: No anotation found", "ID: AT1G76080 -> KeggAnnotation: No anotation found"]
+
+NETWORK 17
+------------------ 
+NETWORK MEMBERS:
+["AT4G39710", "AT4G03280"]
+
+NETWORK INTERACTIONS:
+["AT4G39710 interacts with AT4G39710 with intermediate AT4G03280", "AT4G39710 interacts with AT4G39710 with intermediate AT4G03280", "AT4G39710 interacts with AT4G39710 with intermediate AT4G03280"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT4G39710 -> GoAnnotation: No anotation found", "ID: AT4G03280 -> GoAnnotation: {\"GO:0010196\"=>\"P:nonphotochemical quenching\", \"GO:0009767\"=>\"P:photosynthetic electron transport chain\", \"GO:0006468\"=>\"P:protein phosphorylation\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT4G39710 -> KeggAnnotation: No anotation found", "ID: AT4G03280 -> KeggAnnotation: No anotation found"]
+
+NETWORK 18
+------------------ 
+NETWORK MEMBERS:
+["AT3G62550", "AT4G32010", "AT5G55620"]
+
+NETWORK INTERACTIONS:
+["AT3G62550 interacts with AT3G62550 with intermediate AT4G32010", "AT3G62550 interacts with AT5G55620 with intermediate AT4G32010", "AT3G62550 interacts with AT3G62550 with intermediate AT4G32010", "AT3G62550 interacts with AT5G55620 with intermediate AT4G32010", "AT3G62550 interacts with AT3G62550 with intermediate AT4G32010", "AT3G62550 interacts with AT5G55620 with intermediate AT4G32010"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT3G62550 -> GoAnnotation: {\"GO:0006355\"=>\"P:regulation of DNA-templated transcription\", \"GO:0009738\"=>\"P:abscisic acid-activated signaling pathway\", \"GO:0009926\"=>\"P:auxin polar transport\", \"GO:0009734\"=>\"P:auxin-activated signaling pathway\", \"GO:0006952\"=>\"P:defense response\", \"GO:0009873\"=>\"P:ethylene-activated signaling pathway\", \"GO:0009789\"=>\"P:positive regulation of abscisic acid-activated signaling pathway\", \"GO:0006470\"=>\"P:protein dephosphorylation\", \"GO:0035304\"=>\"P:regulation of protein dephosphorylation\", \"GO:0010119\"=>\"P:regulation of stomatal movement\", \"GO:0009723\"=>\"P:response to ethylene\"}", "ID: AT4G32010 -> GoAnnotation: {\"GO:0006355\"=>\"P:regulation of DNA-templated transcription\"}", "ID: AT5G55620 -> GoAnnotation: No anotation found"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT3G62550 -> KeggAnnotation: No anotation found", "ID: AT4G32010 -> KeggAnnotation: No anotation found", "ID: AT5G55620 -> KeggAnnotation: No anotation found"]
+
+NETWORK 19
+------------------ 
+NETWORK MEMBERS:
+["AT1G14280", "AT1G31880", "AT1G37130", "AT4G02770", "AT1G76080"]
+
+NETWORK INTERACTIONS:
+["AT1G14280 interacts with AT1G37130 with intermediate AT1G31880", "AT1G14280 interacts with AT1G14280 with intermediate AT1G31880", "AT1G14280 interacts with AT1G37130 with intermediate AT1G31880", "AT1G14280 interacts with AT1G14280 with intermediate AT1G31880", "AT1G14280 interacts with AT1G37130 with intermediate AT1G31880", "AT1G14280 interacts with AT1G14280 with intermediate AT1G31880", "AT1G14280 interacts with AT4G02770 with intermediate AT1G31880", "AT1G14280 interacts with AT1G76080 with intermediate AT1G31880", "AT1G14280 interacts with AT4G02770 with intermediate AT1G31880", "AT1G14280 interacts with AT1G76080 with intermediate AT1G31880", "AT1G14280 interacts with AT4G02770 with intermediate AT1G31880", "AT1G14280 interacts with AT1G76080 with intermediate AT1G31880"]
+
+GO ANNOTATIONS OF MEMBERS:
+["ID: AT1G14280 -> GoAnnotation: {\"GO:0048366\"=>\"P:leaf development\", \"GO:0009638\"=>\"P:phototropism\", \"GO:0009585\"=>\"P:red, far-red light phototransduction\"}", "ID: AT1G31880 -> GoAnnotation: {\"GO:0010315\"=>\"P:auxin export across the plasma membrane\", \"GO:0009734\"=>\"P:auxin-activated signaling pathway\", \"GO:0030154\"=>\"P:cell differentiation\", \"GO:0009736\"=>\"P:cytokinin-activated signaling pathway\", \"GO:0048527\"=>\"P:lateral root development\", \"GO:0010078\"=>\"P:maintenance of root meristem identity\", \"GO:0010088\"=>\"P:phloem development\", \"GO:2000280\"=>\"P:regulation of root development\", \"GO:0009737\"=>\"P:response to abscisic acid\", \"GO:0048364\"=>\"P:root development\", \"GO:0048756\"=>\"P:sieve cell differentiation\"}", "ID: AT1G37130 -> GoAnnotation: {\"GO:0042128\"=>\"P:nitrate assimilation\", \"GO:0006809\"=>\"P:nitric oxide biosynthetic process\", \"GO:0009635\"=>\"P:response to herbicide\", \"GO:0009416\"=>\"P:response to light stimulus\", \"GO:0009610\"=>\"P:response to symbiotic fungus\"}", "ID: AT4G02770 -> GoAnnotation: {\"GO:0140547\"=>\"P:acquisition of seed longevity\", \"GO:0015979\"=>\"P:photosynthesis\"}", "ID: AT1G76080 -> GoAnnotation: {\"GO:0045454\"=>\"P:cell redox homeostasis\", \"GO:0042742\"=>\"P:defense response to bacterium\", \"GO:0010286\"=>\"P:heat acclimation\", \"GO:0006979\"=>\"P:response to oxidative stress\", \"GO:0009414\"=>\"P:response to water deprivation\"}"]
+
+KEGGS ANNOTATIONS OF MEMBERS:
+["ID: AT1G14280 -> KeggAnnotation: No anotation found", "ID: AT1G31880 -> KeggAnnotation: No anotation found", "ID: AT1G37130 -> KeggAnnotation: {\"ath00910\"=>\"Nitrogen metabolism\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT4G02770 -> KeggAnnotation: {\"ath00195\"=>\"Photosynthesis\", \"ath01100\"=>\"Metabolic pathways\"}", "ID: AT1G76080 -> KeggAnnotation: No anotation found"]
+
