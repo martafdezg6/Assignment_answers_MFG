@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment_2_MFG
 
 This assignment was made in collaboration by: Ana Karina Ballesteros Gómez, Ángela Gómez Sacristán, Mariam El Akal Chaji, Marta Fernández González and Paula Fernández Aldama.
 
@@ -18,7 +18,7 @@ For running the code use: ruby Main.rb ArabidopsisSubNetwork_GeneList.txt
 
 An example of the output Final report file is shown in final_report.txt.
 
-# Bibliography
+# References
 
 1. Append key/value pair to hash with << in ruby. Stack Overflow. Retrieved November 26, 2022, from https://stackoverflow.com/questions/19756139/append-key-value-pair-to-hash-with-in-ruby
 
