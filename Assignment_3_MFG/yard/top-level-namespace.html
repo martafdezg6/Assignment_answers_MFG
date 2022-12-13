@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Top Level Namespace
+  
+    &mdash; Documentation by YARD 0.9.28
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo;
+    
+    
+    <span class="title">Top Level Namespace</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Top Level Namespace
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#fetch-instance_method" title="#fetch (instance method)">#<strong>fetch</strong>(url:, headers: {accept: &quot;*/*&quot;}, user: &quot;&quot;, pass: &quot;&quot;)  &#x21d2; String, false </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Function that allows us to retrieve information in the web (by Mark Wilkinson).</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#read_file-instance_method" title="#read_file (instance method)">#<strong>read_file</strong>  &#x21d2; Array&lt;Symbol&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>This functions reads the txt file and stores and returns the information of it into an array.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#search_CTTCCT-instance_method" title="#search_CTTCCT (instance method)">#<strong>search_CTTCCT</strong>(file)  &#x21d2; Hash&lt;Symbol&gt; </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>Here we are creating a function that given a array with gene ids it is going to retrieve ensembl information and with this we are going to obtain first the chr where is located the gene, and then the start and end position  in the exons where the repetition CTTCCT is in local coordinates and then in complete chr coordinates for each gene and strand.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="top-level-namespace.html#write_files-instance_method" title="#write_files (instance method)">#<strong>write_files</strong>(bioseq)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'>
+<p>This function writes the 3 output files.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="fetch-instance_method">
+  
+    #<strong>fetch</strong>(url:, headers: {accept: &quot;*/*&quot;}, user: &quot;&quot;, pass: &quot;&quot;)  &#x21d2; <tt>String</tt>, <tt>false</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Function that allows us to retrieve information in the web (by Mark Wilkinson)</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>url</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>URL</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>headers</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+        <em class="default">(defaults to: <tt>{accept: &quot;*/*&quot;}</tt>)</em>
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>headers</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>user</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+        <em class="default">(defaults to: <tt>&quot;&quot;</tt>)</em>
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>username, default “”</p>
+</div>
+      
+    </li>
+  
+    <li>
+      
+        <span class='name'>pass</span>
+      
+      
+        <span class='type'>(<tt>String</tt>)</span>
+      
+      
+        <em class="default">(defaults to: <tt>&quot;&quot;</tt>)</em>
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>password, default “”</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>String</tt>, <tt>false</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>the contents of the URL, or false if an exception occured</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'GFF_functions.rb', line 18</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_fetch'>fetch</span><span class='lparen'>(</span><span class='label'>url:</span><span class='comma'>,</span> <span class='label'>headers:</span> <span class='lbrace'>{</span><span class='label'>accept:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>*/*</span><span class='tstring_end'>&quot;</span></span><span class='rbrace'>}</span><span class='comma'>,</span> <span class='label'>user:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='label'>pass:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='const'>RestClient</span><span class='op'>::</span><span class='const'>Request</span><span class='period'>.</span><span class='id identifier rubyid_execute'>execute</span><span class='lparen'>(</span><span class='lbrace'>{</span>
+    <span class='label'>method:</span> <span class='symbol'>:get</span><span class='comma'>,</span>
+    <span class='label'>url:</span> <span class='id identifier rubyid_url'>url</span><span class='period'>.</span><span class='id identifier rubyid_to_s'>to_s</span><span class='comma'>,</span>
+    <span class='label'>user:</span> <span class='id identifier rubyid_user'>user</span><span class='comma'>,</span>
+    <span class='label'>password:</span> <span class='id identifier rubyid_pass'>pass</span><span class='comma'>,</span>
+    <span class='label'>headers:</span> <span class='id identifier rubyid_headers'>headers</span><span class='rbrace'>}</span><span class='rparen'>)</span>
+  <span class='kw'>return</span> <span class='id identifier rubyid_response'>response</span>
+
+  <span class='kw'>rescue</span> <span class='const'>RestClient</span><span class='op'>::</span><span class='const'>ExceptionWithResponse</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_e'>e</span>
+    <span class='gvar'>$stderr</span><span class='period'>.</span><span class='id identifier rubyid_puts'>puts</span> <span class='id identifier rubyid_e'>e</span><span class='period'>.</span><span class='id identifier rubyid_inspect'>inspect</span>
+    <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='kw'>false</span>
+    <span class='kw'>return</span> <span class='id identifier rubyid_response'>response</span>  
+  <span class='kw'>rescue</span> <span class='const'>RestClient</span><span class='op'>::</span><span class='const'>Exception</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_e'>e</span>
+    <span class='gvar'>$stderr</span><span class='period'>.</span><span class='id identifier rubyid_puts'>puts</span> <span class='id identifier rubyid_e'>e</span><span class='period'>.</span><span class='id identifier rubyid_inspect'>inspect</span>
+    <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='kw'>false</span>
+    <span class='kw'>return</span> <span class='id identifier rubyid_response'>response</span>  
+  <span class='kw'>rescue</span> <span class='const'>Exception</span> <span class='op'>=&gt;</span> <span class='id identifier rubyid_e'>e</span>
+    <span class='gvar'>$stderr</span><span class='period'>.</span><span class='id identifier rubyid_puts'>puts</span> <span class='id identifier rubyid_e'>e</span><span class='period'>.</span><span class='id identifier rubyid_inspect'>inspect</span>
+    <span class='id identifier rubyid_response'>response</span> <span class='op'>=</span> <span class='kw'>false</span>
+    <span class='kw'>return</span> <span class='id identifier rubyid_response'>response</span>  
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="read_file-instance_method">
+  
+    #<strong>read_file</strong>  &#x21d2; <tt>Array&lt;Symbol&gt;</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>This functions reads the txt file and stores and returns the information of it into an array</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Array&lt;Symbol&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>The array of gene ID</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+47
+48
+49
+50
+51</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'GFF_functions.rb', line 47</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_read_file'>read_file</span><span class='lparen'>(</span><span class='rparen'>)</span>
+    <span class='ivar'>@file</span> <span class='op'>=</span> <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_read'>read</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>ArabidopsisSubNetwork_GeneList.txt</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_split'>split</span>
+    <span class='comment'>#this variable stores all the gene ids of the list in an array
+</span>    <span class='kw'>return</span> <span class='ivar'>@file</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="search_CTTCCT-instance_method">
+  
+    #<strong>search_CTTCCT</strong>(file)  &#x21d2; <tt>Hash&lt;Symbol&gt;</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>Here we are creating a function that given a array with gene ids it is going to retrieve ensembl information and with this we are going to obtain first the chr where is located the gene, and then the start and end position  in the exons where the repetition CTTCCT is in local coordinates and then in complete chr coordinates for each gene and strand.  Finally this information is added as a Bio::Feature of the Bio::Sequence object that we created.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>file</span>
+      
+      
+        <span class='type'>(<tt>Array&lt;Symbol&gt;</tt>, <tt>nil</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>The array of gene ID or Nil (in case of an error)</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt>Hash&lt;Symbol&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>embl_hash The hash of Bio::EMBL objects for each EMBL entry and which contains the Bio::Features</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'GFF_functions.rb', line 64</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_search_CTTCCT'>search_CTTCCT</span><span class='lparen'>(</span><span class='id identifier rubyid_file'>file</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_exon_positions'>exon_positions</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span> <span class='comment'>#array that is going to store the exon position in the local coordinates 
+</span>  <span class='id identifier rubyid_exon_positions2'>exon_positions2</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span> <span class='comment'>#array that it is going to store the exon position in the complete chr coordinates
+</span>  <span class='id identifier rubyid_no_match_i'>no_match_i</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span> <span class='comment'>#array that is going to store all the genes that do not have the desired repetition
+</span>
+
+  <span class='kw'>for</span> <span class='id identifier rubyid_i'>i</span> <span class='kw'>in</span> <span class='id identifier rubyid_file'>file</span> 
+      <span class='id identifier rubyid_res'>res</span> <span class='op'>=</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_fetch'><span class='object_link'><a href="#fetch-instance_method" title="#fetch (method)">fetch</a></span></span><span class='lparen'>(</span><span class='label'>url:</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>http://www.ebi.ac.uk/Tools/dbfetch/dbfetch?db=ensemblgenomesgene&amp;format=embl&amp;id=</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_i'>i</span><span class='embexpr_end'>}</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='semicolon'>;</span>    
+      <span class='kw'>if</span> <span class='id identifier rubyid_res'>res</span>  <span class='comment'># res is either the response object (RestClient::Response), or false, so you can test it with &#39;if&#39;
+</span>          <span class='id identifier rubyid_body'>body</span> <span class='op'>=</span> <span class='id identifier rubyid_res'>res</span><span class='period'>.</span><span class='id identifier rubyid_body'>body</span>  <span class='comment'># get the &quot;body&quot; of the response
+</span>          <span class='id identifier rubyid_record'>record</span> <span class='op'>=</span> <span class='const'>Bio</span><span class='op'>::</span><span class='const'>EMBL</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='id identifier rubyid_body'>body</span><span class='rparen'>)</span> <span class='comment'>#embl new, Bio::EMBL object
+</span>          <span class='id identifier rubyid_bioseq'>bioseq</span> <span class='op'>=</span> <span class='id identifier rubyid_record'>record</span><span class='period'>.</span><span class='id identifier rubyid_to_biosequence'>to_biosequence</span> <span class='comment'>#convert a database entry to a Bio::Sequence
+</span>
+          <span class='id identifier rubyid_chr'>chr</span> <span class='op'>=</span> <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_entry_id'>entry_id</span> <span class='comment'>#this gives us the chr where the gene is located and we store this information
+</span>          <span class='id identifier rubyid_n'>n</span> <span class='op'>=</span> <span class='int'>0</span>
+          <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_features'>features</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_feature'>feature</span><span class='op'>|</span> 
+              <span class='kw'>next</span> <span class='kw'>unless</span> <span class='id identifier rubyid_feature'>feature</span><span class='period'>.</span><span class='id identifier rubyid_feature'>feature</span> <span class='op'>==</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>exon</span><span class='tstring_end'>&quot;</span></span> <span class='comment'>#specifing the feature that we want (exon)
+</span>              <span class='id identifier rubyid_locations'>locations</span> <span class='op'>=</span> <span class='id identifier rubyid_feature'>feature</span><span class='period'>.</span><span class='id identifier rubyid_locations'>locations</span><span class='period'>.</span><span class='id identifier rubyid_locations'>locations</span>
+              <span class='id identifier rubyid_locations'>locations</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_location'>location</span><span class='op'>|</span>
+                  <span class='id identifier rubyid_exon'>exon</span> <span class='op'>=</span> <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_subseq'>subseq</span><span class='lparen'>(</span><span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_from'>from</span><span class='comma'>,</span> <span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_to'>to</span><span class='rparen'>)</span> <span class='comment'># &#39;subseq&#39;: exon sequence , &#39;from&#39;, &#39;to&#39; : positions
+</span>                  <span class='kw'>next</span> <span class='kw'>if</span> <span class='id identifier rubyid_exon'>exon</span> <span class='op'>==</span> <span class='kw'>nil</span>  <span class='comment'>#handling the cases that we have a nil response 
+</span>                  <span class='kw'>if</span> <span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_strand'>strand</span> <span class='op'>==</span> <span class='int'>+1</span>  <span class='comment'>#retrieving the location in the case of the + strand
+</span>                      <span class='id identifier rubyid_reps'>reps</span> <span class='op'>=</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Sequence</span><span class='op'>::</span><span class='const'>NA</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>CTTCTT</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to_re'>to_re</span> <span class='comment'>#converting the sequence into a regex and if it match we store in the array the gene, the start and end position and the strand
+</span>                      <span class='kw'>if</span> <span class='id identifier rubyid_exon'>exon</span><span class='period'>.</span><span class='id identifier rubyid_match'>match</span><span class='lparen'>(</span><span class='id identifier rubyid_reps'>reps</span><span class='rparen'>)</span>
+                          <span class='id identifier rubyid_exon_position'>exon_position</span> <span class='op'>=</span> <span class='id identifier rubyid_exon'>exon</span><span class='period'>.</span><span class='id identifier rubyid_index'>index</span><span class='lparen'>(</span><span class='id identifier rubyid_reps'>reps</span><span class='rparen'>)</span>
+                          <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='op'>=</span> <span class='id identifier rubyid_exon_position'>exon_position</span> <span class='op'>+</span> <span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_from'>from</span>  
+                          <span class='id identifier rubyid_exon_positions'>exon_positions</span> <span class='op'>&lt;&lt;</span> <span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='comma'>,</span> <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='comma'>,</span> <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='op'>+</span><span class='int'>5</span> <span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>+</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+                          <span class='id identifier rubyid_n'>n</span> <span class='op'>=</span> <span class='id identifier rubyid_n'>n</span><span class='op'>+</span><span class='int'>1</span>
+                      <span class='kw'>end</span>
+                  <span class='kw'>else</span>  <span class='comment'>#here we calculate the position in the case of - strand
+</span>                      <span class='id identifier rubyid_reps'>reps</span> <span class='op'>=</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Sequence</span><span class='op'>::</span><span class='const'>NA</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>CTTCTT</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_complement'>complement</span><span class='period'>.</span><span class='id identifier rubyid_to_re'>to_re</span>
+                      <span class='kw'>if</span> <span class='id identifier rubyid_exon'>exon</span><span class='period'>.</span><span class='id identifier rubyid_match'>match</span><span class='lparen'>(</span><span class='id identifier rubyid_reps'>reps</span><span class='rparen'>)</span>
+                          <span class='id identifier rubyid_exon_position'>exon_position</span> <span class='op'>=</span> <span class='id identifier rubyid_exon'>exon</span><span class='period'>.</span><span class='id identifier rubyid_index'>index</span><span class='lparen'>(</span><span class='id identifier rubyid_reps'>reps</span><span class='rparen'>)</span>
+                          <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='op'>=</span> <span class='id identifier rubyid_exon_position'>exon_position</span> <span class='op'>+</span> <span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_from'>from</span>
+                          <span class='id identifier rubyid_exon_positions'>exon_positions</span> <span class='op'>&lt;&lt;</span> <span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='comma'>,</span> <span class='id identifier rubyid_start_pos'>start_pos</span><span class='comma'>,</span> <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='op'>+</span><span class='int'>5</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>-</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+                          <span class='id identifier rubyid_n'>n</span> <span class='op'>=</span> <span class='id identifier rubyid_n'>n</span><span class='op'>+</span><span class='int'>1</span>
+                      <span class='kw'>end</span>
+                  <span class='kw'>end</span>
+              <span class='kw'>end</span>
+          <span class='kw'>end</span>
+
+          <span class='kw'>if</span> <span class='lparen'>(</span><span class='id identifier rubyid_n'>n</span> <span class='op'>==</span> <span class='int'>0</span><span class='rparen'>)</span> <span class='comment'>#store those genes that do not match with the desired sequence
+</span>              <span class='id identifier rubyid_no_match_i'>no_match_i</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_i'>i</span>
+          <span class='kw'>end</span>
+
+
+        <span class='comment'>#Now we are going to apply similar code but taking in count the coordinates of the gene in the whole chromosome
+</span>          <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_features'>features</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_feature'>feature</span><span class='op'>|</span> 
+              <span class='kw'>next</span> <span class='kw'>unless</span> <span class='id identifier rubyid_feature'>feature</span><span class='period'>.</span><span class='id identifier rubyid_feature'>feature</span> <span class='op'>==</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>exon</span><span class='tstring_end'>&quot;</span></span>
+              <span class='id identifier rubyid_locations'>locations</span> <span class='op'>=</span> <span class='id identifier rubyid_feature'>feature</span><span class='period'>.</span><span class='id identifier rubyid_locations'>locations</span><span class='period'>.</span><span class='id identifier rubyid_locations'>locations</span>
+              <span class='id identifier rubyid_locations'>locations</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_location'>location</span><span class='op'>|</span>
+                  <span class='id identifier rubyid_exon'>exon</span> <span class='op'>=</span> <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_subseq'>subseq</span><span class='lparen'>(</span><span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_from'>from</span><span class='comma'>,</span> <span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_to'>to</span><span class='rparen'>)</span> <span class='comment'># &#39;subseq&#39;: exon sequence , &#39;from&#39;, &#39;to&#39; : positions
+</span>                  <span class='kw'>next</span> <span class='kw'>if</span> <span class='id identifier rubyid_exon'>exon</span> <span class='op'>==</span> <span class='kw'>nil</span>
+                  <span class='kw'>if</span> <span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_strand'>strand</span> <span class='op'>==</span> <span class='int'>+1</span>
+                      <span class='id identifier rubyid_reps'>reps</span> <span class='op'>=</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Sequence</span><span class='op'>::</span><span class='const'>NA</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>CTTCTT</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to_re'>to_re</span>
+                      <span class='kw'>if</span> <span class='id identifier rubyid_exon'>exon</span><span class='period'>.</span><span class='id identifier rubyid_match'>match</span><span class='lparen'>(</span><span class='id identifier rubyid_reps'>reps</span><span class='rparen'>)</span>
+                          <span class='id identifier rubyid_exon_position'>exon_position</span> <span class='op'>=</span> <span class='id identifier rubyid_exon'>exon</span><span class='period'>.</span><span class='id identifier rubyid_index'>index</span><span class='lparen'>(</span><span class='id identifier rubyid_reps'>reps</span><span class='rparen'>)</span>
+                          <span class='id identifier rubyid_start_gen'>start_gen</span> <span class='op'>=</span> <span class='lparen'>(</span><span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_primary_accession'>primary_accession</span><span class='period'>.</span><span class='id identifier rubyid_split'>split</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>:</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='int'>3</span><span class='rbracket'>]</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to_i'>to_i</span> <span class='comment'>#this allows us to retrieve in complete chr coordinates where does the gene starts
+</span>                          <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='op'>=</span> <span class='id identifier rubyid_exon_position'>exon_position</span> <span class='op'>+</span> <span class='id identifier rubyid_start_gen'>start_gen</span> <span class='op'>+</span> <span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_from'>from</span>  <span class='comment'>#now we get the real start position by adding the exon start position in the gene and where does the gene starts in the genome
+</span>                          <span class='id identifier rubyid_exon_positions2'>exon_positions2</span> <span class='op'>&lt;&lt;</span> <span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='comma'>,</span> <span class='id identifier rubyid_chr'>chr</span><span class='comma'>,</span> <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='comma'>,</span> <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='op'>+</span><span class='int'>5</span> <span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>+</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span>
+                      <span class='kw'>end</span>
+                  <span class='kw'>else</span>
+                      <span class='id identifier rubyid_reps'>reps</span> <span class='op'>=</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Sequence</span><span class='op'>::</span><span class='const'>NA</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>CTTCTT</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_complement'>complement</span><span class='period'>.</span><span class='id identifier rubyid_to_re'>to_re</span>
+                      <span class='kw'>if</span> <span class='id identifier rubyid_exon'>exon</span><span class='period'>.</span><span class='id identifier rubyid_match'>match</span><span class='lparen'>(</span><span class='id identifier rubyid_reps'>reps</span><span class='rparen'>)</span>
+                          <span class='id identifier rubyid_exon_position'>exon_position</span> <span class='op'>=</span> <span class='id identifier rubyid_exon'>exon</span><span class='period'>.</span><span class='id identifier rubyid_index'>index</span><span class='lparen'>(</span><span class='id identifier rubyid_reps'>reps</span><span class='rparen'>)</span>
+                          <span class='id identifier rubyid_start_gen'>start_gen</span> <span class='op'>=</span> <span class='lparen'>(</span><span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_primary_accession'>primary_accession</span><span class='period'>.</span><span class='id identifier rubyid_split'>split</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>:</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span><span class='lbracket'>[</span><span class='int'>3</span><span class='rbracket'>]</span><span class='rparen'>)</span><span class='period'>.</span><span class='id identifier rubyid_to_i'>to_i</span>
+                          <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='op'>=</span> <span class='id identifier rubyid_exon_position'>exon_position</span> <span class='op'>+</span> <span class='id identifier rubyid_start_gen'>start_gen</span> <span class='op'>+</span> <span class='id identifier rubyid_location'>location</span><span class='period'>.</span><span class='id identifier rubyid_from'>from</span> <span class='comment'>#this gives us where the gene starts
+</span>                          <span class='id identifier rubyid_exon_positions2'>exon_positions2</span> <span class='op'>&lt;&lt;</span> <span class='lbracket'>[</span><span class='id identifier rubyid_i'>i</span><span class='comma'>,</span> <span class='id identifier rubyid_chr'>chr</span><span class='comma'>,</span> <span class='id identifier rubyid_start_pos'>start_pos</span><span class='comma'>,</span> <span class='id identifier rubyid_start_pos'>start_pos</span> <span class='op'>+</span><span class='int'>5</span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>-</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span> <span class='comment'>#now we get the real start position by adding the exon start position in the gene and where does the gene starts in the genome
+</span>                      <span class='kw'>end</span>
+                  <span class='kw'>end</span>
+              <span class='kw'>end</span>
+          <span class='kw'>end</span>      
+
+
+      <span class='kw'>else</span>
+        <span class='id identifier rubyid_puts'>puts</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>the Web call failed - see STDERR for details...</span><span class='tstring_end'>&quot;</span></span> 
+      <span class='kw'>end</span>
+  <span class='kw'>end</span>
+
+  <span class='comment'># here we are keeping with the unrepeated values of the exon_postions that we obtained, also we are storing them as a Bio::Feature 
+</span>  <span class='id identifier rubyid_exon_positions'>exon_positions</span><span class='period'>.</span><span class='id identifier rubyid_uniq'>uniq</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_feature'>feature</span><span class='op'>|</span>
+      <span class='id identifier rubyid_position'>position</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span><span class='comma'>,</span><span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>2</span><span class='rbracket'>]</span><span class='rbracket'>]</span>
+      <span class='id identifier rubyid_ft'>ft</span><span class='op'>=</span> <span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>misfeatures</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_position'>position</span><span class='rparen'>)</span> 
+      <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>repeat_region</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>CTTCTT</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Gene_id</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='rparen'>)</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>note</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>found by repeatfinder 2.0</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>strand</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>3</span><span class='rbracket'>]</span><span class='rparen'>)</span><span class='rparen'>)</span>
+      <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_features'>features</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_ft'>ft</span>
+  <span class='kw'>end</span>
+
+  <span class='id identifier rubyid_exon_positions2'>exon_positions2</span><span class='period'>.</span><span class='id identifier rubyid_uniq'>uniq</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_feature'>feature</span><span class='op'>|</span>
+    <span class='id identifier rubyid_position'>position</span> <span class='op'>=</span> <span class='lbracket'>[</span><span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>2</span><span class='rbracket'>]</span><span class='comma'>,</span><span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>3</span><span class='rbracket'>]</span><span class='rbracket'>]</span>
+    <span class='id identifier rubyid_ft'>ft</span><span class='op'>=</span> <span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>misCfeatures</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='id identifier rubyid_position'>position</span><span class='rparen'>)</span> 
+    <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>repeat_region</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>CTTCTT</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Gene_id</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='rparen'>)</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Chr</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span><span class='rparen'>)</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>note</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>found by repeatfinder 2.0</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>strand</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_feature'>feature</span><span class='lbracket'>[</span><span class='int'>4</span><span class='rbracket'>]</span><span class='rparen'>)</span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_features'>features</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_ft'>ft</span>
+  <span class='kw'>end</span>
+  
+  <span class='id identifier rubyid_no_match_i'>no_match_i</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_id'>id</span><span class='op'>|</span>
+    <span class='id identifier rubyid_ft'>ft</span><span class='op'>=</span> <span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>NoMatchfeatures</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>No match</span><span class='tstring_end'>&#39;</span></span><span class='rparen'>)</span>
+    <span class='id identifier rubyid_ft'>ft</span><span class='period'>.</span><span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='const'>Bio</span><span class='op'>::</span><span class='const'>Feature</span><span class='op'>::</span><span class='const'>Qualifier</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>Gene_id</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='id identifier rubyid_id'>id</span><span class='rparen'>)</span><span class='rparen'>)</span> 
+    <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_features'>features</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_ft'>ft</span>
+  <span class='kw'>end</span>
+  <span class='kw'>return</span> <span class='id identifier rubyid_bioseq'>bioseq</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="write_files-instance_method">
+  
+    #<strong>write_files</strong>(bioseq)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+<p>This function writes the 3 output files</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  <p class="tag_title">Parameters:</p>
+<ul class="param">
+  
+    <li>
+      
+        <span class='name'>bioseq</span>
+      
+      
+        <span class='type'>(<tt>Hash&lt;Symbol&gt;</tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'>
+<p>The Bio::Sequence objects that contains the features that we added</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'GFF_functions.rb', line 178</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_write_files'>write_files</span><span class='lparen'>(</span><span class='id identifier rubyid_bioseq'>bioseq</span><span class='rparen'>)</span>
+  <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>GFF3_report_reex.gff</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+  <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>GFF3_report_reex.gff</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>##gff-version 3\n</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+  <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>GFF3_report.gff</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+  <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>GFF3_report.gff</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>##gff-version 3\n</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+  <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Report_file.txt</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>w</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+  <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Report_file.txt</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>\t\t\t\t\tREPORT\n######################################################\n</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+  <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Report_file.txt</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Genes that do NOT have exons with the CTTCTT repeat:\n\n</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+    <span class='id identifier rubyid_bioseq'>bioseq</span><span class='period'>.</span><span class='id identifier rubyid_features'>features</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span> <span class='kw'>do</span> <span class='op'>|</span><span class='id identifier rubyid_entrada'>entrada</span><span class='op'>|</span>
+      <span class='kw'>if</span> <span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_feature'>feature</span> <span class='op'>==</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>misCfeatures</span><span class='tstring_end'>&quot;</span></span>
+        <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>GFF3_report_reex.gff</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>2</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_qualifier'>qualifier</span><span class='embexpr_end'>}</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>2</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t.\t</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_qualifier'>qualifier</span><span class='embexpr_end'>}</span><span class='tstring_content'> </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_position'>position</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_position'>position</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t.\t</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>4</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t.\t.\n</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+      <span class='kw'>elsif</span> <span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_feature'>feature</span> <span class='op'>==</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>misfeatures</span><span class='tstring_end'>&quot;</span></span>
+        <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>GFF3_report.gff</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_qualifier'>qualifier</span><span class='embexpr_end'>}</span><span class='tstring_content'> </span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_position'>position</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_position'>position</span><span class='lbracket'>[</span><span class='int'>1</span><span class='rbracket'>]</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t.\t</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>3</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='embexpr_end'>}</span><span class='tstring_content'>\t.\t.\n</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+      <span class='kw'>elsif</span> <span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_feature'>feature</span> <span class='op'>==</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>NoMatchfeatures</span><span class='tstring_end'>&quot;</span></span>
+        <span class='const'>File</span><span class='period'>.</span><span class='id identifier rubyid_open'>open</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Report_file.txt</span><span class='tstring_end'>&quot;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>a</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='lbrace'>{</span> <span class='op'>|</span><span class='id identifier rubyid_f'>f</span><span class='op'>|</span> <span class='id identifier rubyid_f'>f</span><span class='period'>.</span><span class='id identifier rubyid_write'>write</span> <span class='tstring'><span class='tstring_beg'>&quot;</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_entrada'>entrada</span><span class='period'>.</span><span class='id identifier rubyid_qualifiers'>qualifiers</span><span class='lbracket'>[</span><span class='int'>0</span><span class='rbracket'>]</span><span class='period'>.</span><span class='id identifier rubyid_value'>value</span><span class='embexpr_end'>}</span><span class='tstring_content'>\n</span><span class='tstring_end'>&quot;</span></span> <span class='rbrace'>}</span>
+      <span class='kw'>end</span>  
+    <span class='kw'>end</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Tue Dec 13 16:22:41 2022 by
+  <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.28 (ruby-3.1.3).
+</div>
+
+    </div>
+  </body>
+</html>
