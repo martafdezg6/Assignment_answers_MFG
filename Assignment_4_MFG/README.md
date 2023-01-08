@@ -15,7 +15,7 @@ Using BioRuby to blast and parse the blast reports, find the orthologue pairs be
 To decide on "sensible" BLAST parameters, do a bit of online reading - when you have decided what parameters to use, please cite the paper or website that provided the information.
 
 # Running the code
-NOTE: First you will need to decompress TAIR10_cds_20101214_updated_1.fa.zip and pep_1.fa.zip zips that contains the fasta files - this is because the size of the fasta files exceds the maximum allowed in GitHub.
+NOTE: First you will need to decompress TAIR10_cds_20101214_updated_1.zip and pep_1.zip zips that contains the fasta files - this is because the size of the fasta files exceds the maximum allowed in GitHub.
 
 In the terminal type: `ruby Main.rb pep_1.fa TAIR10_cds_20101214_updated_1.fa`
 
